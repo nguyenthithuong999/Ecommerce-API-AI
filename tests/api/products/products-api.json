@@ -1,0 +1,21 @@
+{
+  "TC_API_01": {
+    "expectedCode": 200
+  },
+  "TC_API_02": {
+    "expectedCode": 405,
+    "expectedMessage": "This request method is not supported"
+  },
+  "TC_API_03": {
+    "expectedCode": 200
+  },
+  "TC_API_04": {
+    "searchTerm": "top",
+    "expectedCode": 200
+  },
+  "TC_API_05": {
+    "expectedCode": 400,
+    "expectedMessage": "Bad request, search_product parameter is missing"
+  }
+}
+

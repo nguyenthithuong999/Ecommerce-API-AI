@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://automationexercise.com",
+  "apiBaseUrl": "https://automationexercise.com/api",
+  "headless": true,
+  "defaultTimeout": 10000,
+  "defaultUser": {
+    "title": "Mr",
+    "name": "Standard Test User",
+    "country": "United States"
+  }
+}

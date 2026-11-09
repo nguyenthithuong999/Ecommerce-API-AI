@@ -1,0 +1,13 @@
+{
+  "TC_UI_08": {
+    "firstProductIndex": 0,
+    "secondProductIndex": 1,
+    "expectedItemCount": 2
+  },
+  "TC_UI_09": {
+    "productIndex": 0,
+    "initialItemCount": 1,
+    "expectedItemCountAfterDelete": 0
+  }
+}
+

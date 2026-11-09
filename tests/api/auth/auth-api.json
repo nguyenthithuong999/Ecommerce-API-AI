@@ -1,0 +1,27 @@
+{
+  "TC_API_06": {
+    "expectedCode": 200,
+    "expectedMessage": "User exists!"
+  },
+  "TC_API_07": {
+    "passwordOnly": "SomePassword123",
+    "expectedCode": 400,
+    "expectedMessage": "Bad request"
+  },
+  "TC_API_08": {
+    "invalidEmail": "nonexistent_account_999999@test.com",
+    "wrongPassword": "WrongPassword123",
+    "expectedCode": 404,
+    "expectedMessage": "User not found!"
+  },
+  "TC_API_09": {
+    "expectedCreateCode": 201,
+    "expectedCreateMessage": "User created!",
+    "expectedDeleteCode": 200,
+    "expectedDeleteMessage": "Account deleted!"
+  },
+  "TC_API_10": {
+    "expectedCode": 200
+  }
+}
+

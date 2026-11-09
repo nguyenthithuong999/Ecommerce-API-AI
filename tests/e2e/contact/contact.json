@@ -1,0 +1,11 @@
+{
+  "TC_UI_10": {
+    "name": "QA Automation Lead",
+    "email": "qa_lead_contact@testmail.com",
+    "subject": "Inquiry regarding Automated Test Service",
+    "message": "Hello, this is a verified automated test contact message.",
+    "fileContent": "This is an automated test attachment file.",
+    "expectedSuccessAlert": "Success! Your details have been submitted successfully."
+  }
+}
+
